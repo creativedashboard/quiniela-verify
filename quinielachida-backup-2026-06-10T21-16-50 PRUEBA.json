@@ -1,0 +1,8300 @@
+{
+  "version": "2.1",
+  "generated_at": "2026-06-10T21:16:50.767Z",
+  "note": "Respaldo de Quiniela Chida — leído path por path con tolerancia a permisos.",
+  "skipped_paths": [
+    "community_thirds_bracket"
+  ],
+  "data": {
+    "users": {
+      "0bzyoT6EB7bdO76JQV2kqRL1aKu2": {
+        "color": "green",
+        "communityId": "c_n2tym5lf",
+        "email": "adrianlg55@gmail.com",
+        "joinedAt": 1779945225760,
+        "name": "SANPEI😎👊",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocK2dQtfRscYui8qni4tNZ7h6PEIAzo-y2vUvlS0faIMUeZtTsJ0=s96-c",
+        "termsAcceptedAt": 1779945241310
+      },
+      "0sUtJWXWA8TgnMc9VwNkVzZ6BJ03": {
+        "color": "red",
+        "communityId": "c_n2tym5lf",
+        "email": "saulfelixf2@gmail.com",
+        "joinedAt": 1779941329911,
+        "name": "s4UL 🐶🦀",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLF9V41d2qChjrhw5rk3y0u5EIQGNZeABdNC0OYsgbGtWSvKQ=s96-c",
+        "termsAcceptedAt": 1779941332880
+      },
+      "1fQD9vsjU8Mq23kv30OnFVzORF73": {
+        "color": "emerald",
+        "communityId": "c_n2tym5lf",
+        "email": "cryptodonv@gmail.com",
+        "joinedAt": 1780256272821,
+        "name": "Don v",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLrvRndOsGfb75dYFtB9Suk4ufVciyje3na02bgXFT2_BSQEQ=s96-c",
+        "termsAcceptedAt": 1780256274512
+      },
+      "1lEb8BY7a9VuUAocjlKeR3ruM5n2": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "email": "isracrypto.x@gmail.com",
+        "joinedAt": 1779731420313,
+        "name": "Isracrypto",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocIkBv-TVz8sm4BxxMFxogC1k2O7fMDYhfp8-gl-p6B4-FuleY7e=s96-c",
+        "termsAcceptedAt": 1779731422410
+      },
+      "96jJrV0jGMYnsK7nr1oGI8gRoww2": {
+        "color": "rose",
+        "communityId": "c_n2tym5lf",
+        "displayNameSet": true,
+        "email": "soycrisscheme@gmail.com",
+        "joinedAt": 1779731354474,
+        "lastNameChangeAt": 1779820415598,
+        "name": "SpiralCriss",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocKHampy1KNEVYzZgLSjEVYtWnaXjbmBuLqkdNvTluWj5E0BMA=s96-c",
+        "termsAcceptedAt": 1779731354474
+      },
+      "Bb4yxeEOKWQXQHHzlmuUquI6sPG2": {
+        "color": "blue",
+        "communityId": "c_ot1j05fb",
+        "email": "grekochoy@gmail.com",
+        "joinedAt": 1781125989099,
+        "name": "Choy",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocJHzHNqRtBRhGukeM8qn5JW9gSWJFOvSOeo_vk97ko3NK5wOYE=s96-c",
+        "termsAcceptedAt": 1781125989099
+      },
+      "E36y02JO6xbyFgGPlynM3lXkrP52": {
+        "color": "violet",
+        "communityId": "c_n2tym5lf",
+        "email": "renxiao17@outlook.com",
+        "joinedAt": 1780256688475,
+        "name": "renxiao",
+        "photo": "",
+        "termsAcceptedAt": 1780256722101
+      },
+      "F2hv9ES4spYbokSYjR0G9Ao4ee62": {
+        "color": "sky",
+        "communityId": "c_n2tym5lf",
+        "email": "santiago_rios17@hotmail.com",
+        "joinedAt": 1780518340012,
+        "name": "Santiago Rios",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocKKWkwqXM3S0W41-gQiv_CVGujSksWNZaW2PnhNLS_6o2wMaw=s96-c",
+        "termsAcceptedAt": 1780518341835
+      },
+      "FTQZkIDpsPUyEP3M3yr2c2dhFng1": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "email": "glvzalejandro@gmail.com",
+        "joinedAt": 1780972303133,
+        "name": "Alex Choy Gálvez",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocJ3xA74dETPQUuVD5pm83qV0MSmeYYsH9ubRVRREPX6s_-goDu8=s96-c",
+        "termsAcceptedAt": 1780972305593
+      },
+      "JFDSoQrXpOUsZcgLn5QLCxc3Oy83": {
+        "color": "slate",
+        "communityId": "c_n2tym5lf",
+        "email": "mbazua@yunno.com.mx",
+        "joinedAt": 1780072183224,
+        "name": "Miguel",
+        "photo": "https://lh3.googleusercontent.com/a-/ALV-UjWMfRYUPiwstrWtMhwOnnSpz08CENZ5zYuixrpddeitqCINKlAiK90svEvUfMv92XzrXaP-CFAFh0HcxDH_DFRy8IKtJUg703AHj7oVFF-7EfDDQCpycO1X7zdT2tdAjBWUwLOrxmaao9FiqUg37FGx2QF2F0zS3xhPvUmtzFsp1Z-KkpzxhfiaBwKyC7133Fxlg555SbDd4X83yBrsvHNQYs2c6Nrer4E4h4WA3S-nLna6KLBWoKo6MThoyPukhh4tCgXfGyIp7I8tEU9OKqd0CIniOCp7_q_He2rHsPJ3DFVFSlB1NRSIPtTga8VR5ArOVS3dcgDDQu9X4YqJgDKrOmAyI-ZAlJ4EoGJ75GgHyizm8XKrKTqszH0Y0FQQBst-bdbUUnOP9_mKG2zv6yuAdd0g60NS0MCJsLFdllYLpkmHpJnsFSfN7xWCGEn2c-bXVZX77v8J362Nsa8eVh0TMpWfsF_7ZFtrZXF4AHAcPeQKa-PXkHbVhMd85uxvXaiYovCCJQFUestzA9earJyGgKnNnmMFD6B4-Xtdae4nMwQuKny_-R-ij53DOoGXMo7LZqDP5zwtT0EoNJXptGJonHkM_zliUp_F7wZM4BfqTOHsdlVC_yvjYJ4w5gAEJ5eKNFhltHLr_0CLv7yFcDbr7f2JmT8vhK8FjnEdxSLgsjmlGa5th5eGWpDBvkiEN__4VsS9geGzR-s7qOvhXM8MlOtUbTfvzy2_Ypn3eNUpeG8MqsozkYVAghHt70QtgER4mIrFDb7GyGmjNL1tu-UWANBgvwuLLB7ZpUfK2iVT_CuARHeNga3OEF0wZGUuO0AFScyzcfuNzGfg8L3sg0uT5QDNgcuxk6aBI1wJina2jFPhP4rwWTsiJYUZNN6LIL2sNStEx2ommrOMUJEXd4s1Ls_WU0BXmhe5JqmX27nskMYZEViXeQ38JA8guPqBVHLKvFiV__2P9GqeQJlcUk6ZVWmSWOZSfy2yZtjgTF_UF3SZ2tYjQBx9unFpiKJ-_Mx3HBZlxkBifi4t2qnLn5sqJe2zSOaUO8fArtQdcTINxQZgC44E7P4=s96-c",
+        "termsAcceptedAt": 1780072188212
+      },
+      "KZW3TnOz3gVrDHWLkY4fU9R1x8o2": {
+        "color": "green",
+        "communityId": "c_n2tym5lf",
+        "email": "luisan.goro@gmail.com",
+        "joinedAt": 1779987478191,
+        "name": "Antonio Gonzalez",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocKptEhmkgtQwpc0rXD8H_ZMUCS0rzLSMUFSPZjgleiEQusMO-8=s96-c",
+        "termsAcceptedAt": 1779987483376
+      },
+      "MA9tf0iI0LTtSgr25kkg1ilvl0K2": {
+        "color": "violet",
+        "communityId": "c_n2tym5lf",
+        "email": "itsaihdz@gmail.com",
+        "joinedAt": 1781020309729,
+        "name": "Itsai 🍦",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLgFnMLF41T7wDzmFKs5X-W0sQuvETh0iH4x6vJsT8V0WvAoHWr=s96-c",
+        "termsAcceptedAt": 1781020333243
+      },
+      "PamDDhnh8hZTp3waUcWNhr6313D3": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "displayNameSet": true,
+        "email": "joseramon.navarro8@gmail.com",
+        "joinedAt": 1780176320902,
+        "lastNameChangeAt": 1780285498651,
+        "name": "JR Navarro",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocIPQmfKQqZk8hfc6pleMmIhPwjnoMlUPcFCL4U070fVyC9PKk0=s96-c",
+        "termsAcceptedAt": 1780176350192
+      },
+      "RVrJw8GYcbP7sFVGDRcAYLDUOJH3": {
+        "color": "orange",
+        "communityId": "c_n2tym5lf",
+        "email": "galle35tas@gmail.com",
+        "joinedAt": 1779732553095,
+        "name": "Galle Tas",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocIWsR2ZzfVVQCAbh8yvCaru_Mz6c9q3DFfZTHeK2nPSiTrPP04=s96-c",
+        "termsAcceptedAt": 1779732555103
+      },
+      "Rhjs1bJk1jTZ0lw0xY3QOU3Fvv22": {
+        "color": "indigo",
+        "communityId": "c_mp69ufvz",
+        "email": "pam.flaca12@gmail.com",
+        "joinedAt": 1778810741393,
+        "name": "pamela garcia",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocIqpcf_IG4azPtQUcQc2eo5mhPgLul6P5uzBV0VN89tWbt-u34=s96-c",
+        "termsAcceptedAt": 1778981702127
+      },
+      "ZDQcOkt2woOs5owq1jxAnsZ0dYu2": {
+        "color": "red",
+        "communityId": "",
+        "email": "spiralcrypto@gmail.com",
+        "joinedAt": 1778595015134,
+        "name": "Spiral Crypto",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLelcZz5pPZ8Sg9FCfzzHMlJh7fCnBtUWutpZvOc6PdY34aUCE=s96-c",
+        "termsAcceptedAt": 1778976698414
+      },
+      "gYRCEHmrMuP7UtLNmkZXK1lRzH83": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "email": "alcortes93@outlook.com",
+        "joinedAt": 1781034535822,
+        "name": "Alejandro Cortes",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLmPzc4ogfSQxmLNVgWHkbAhAwj8ugD-rCVYEUMWbWKlZnR1Q=s96-c",
+        "termsAcceptedAt": 1781034538341
+      },
+      "jVNyrAGGLjdDm4g17SOv8jBsaIK2": {
+        "color": "red",
+        "communityId": "c_n2tym5lf",
+        "email": "hardyfrank98@gmail.com",
+        "joinedAt": 1780370372297,
+        "name": "Fco Lopez",
+        "photo": "https://lh3.googleusercontent.com/a-/ALV-UjWu01UDIzVctz_3VQp_lGhLhMGKel2R8_AGMMDmwVevOb29cJv4VQuwW_3JEknaD7OJF2k2VKMX8Hbu7Tj-SQOUYRsnDWmQszuDGBdmEpC_IgjbvDjjebvRZH0zcLTcoRfuQqbmFFKPQTaxrjUXUKzFIYMeHKKAu72Cgl5AYNUZwv-6-YRcDUfTxMaWgKyIUNbSEg8s-xKeTiHacgoWFTVJyL_8TNjCmLJUFifhcsvFxywK2hRFjyuq32oshPOIOvAPVbbgUcRPtepFQ4cg--uYHW0NYZztDR6-c931tc9FlIhNv8WHfSiPV0x4XnIT5Yzfk0pJjMfo7S1rL52OATMj4DVUZLazNC6ECu80gbQVKrihidulThv4a5UykBaNTOOwMj8qcxcOVA5ofkj94ykcZB_oznvdmPO705vRHocWDigkWF5RkrRO6CQD8i8rKox8nzX__GEEr5bOTvS7WKErQY6iNtUwkwR4U67mg43XzrgkvRK8UqqOxPsO_jsbrVUbiZ_KEydaPl0Fqge2Wrhq5b6G6AnRKDpMCCIzGoFuBpz255gx7nQGoAUFTfgZthv8KMT_5M-r4N9N4PEwsDXaA9-UYcAb-5s2NAuhMCd5KUV080zXZNFFGHNy-IgocKlKPU2ueLKYmQGLgmgm_OXzZpvXa-qV4TB8C_gL0Qne3_WkjrNmay-c5XaglxGurZuP_h3X8TVq3W6SyXFzUmkRjQN1F8eVHK4xUdi_42L5pHJXaniePGEI5ysSvVBwu3s2q9kMWi4sm6tw_GHg_5p0mbLha6-HSxQw38zf2xZu75nkQEadvifFz_NoV99HQGdHhoGEj4g4Pbwqfexp1Sudf7xnXEkz-J6PXL-ud6SoJmRmCrs2NAo7rPpf4woUc57eq8Xv7OI9MzHAWYKf-ec0DwlFytO71_SgSEqOYaZl1H2Eshb42C93YMQaZaOirlglD_fmGxLFCDp_6dRwWEzOsSFe_ykXQqi2jYjkCBwxrc3KkK7IMd_O_KTf5hgbJQzv_vbZEr7LJDSSX6AqIalnvyyPWHLY6UqB5Jx045vdveYYbjY7jQ=s96-c",
+        "termsAcceptedAt": 1780370375937
+      },
+      "jahioiw1lTUgyA8EXAbKJuCIEtl1": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "email": "afifkabande@gmail.com",
+        "joinedAt": 1780264536937,
+        "name": "Afif Kabande",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLMNYTcWhzy6aGgrnwlvEwucmoy3zDhZ7uN3_BZ0giiKXb0-jlP=s96-c",
+        "termsAcceptedAt": 1780264541544
+      },
+      "lTyKoR7zagdLGw7lq9iBaWfiyql2": {
+        "color": "lime",
+        "communityId": "c_n2tym5lf",
+        "email": "eordieresp@gmail.com",
+        "joinedAt": 1780313102870,
+        "name": "Fano ordieres",
+        "photo": "https://lh3.googleusercontent.com/a/ACg8ocLdo4oZyBM2EvM4ztn5-mZgV4UQd0Qo4mX-CSotBDa-NSZfrw=s96-c",
+        "termsAcceptedAt": 1780313141099
+      },
+      "pCPEIUmKSgTdfA5J41oIHQKemuF3": {
+        "color": "blue",
+        "communityId": "c_n2tym5lf",
+        "email": "jesp91@hotmail.com",
+        "joinedAt": 1780161408153,
+        "name": "LALOSANTOS",
+        "photo": "",
+        "termsAcceptedAt": 1780161428494
+      }
+    },
+    "picks": {
+      "0bzyoT6EB7bdO76JQV2kqRL1aKu2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 6,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Australia",
+          "Costa de Marfil",
+          "Senegal",
+          "Bosnia y Herz.",
+          "Argelia",
+          "Egipto",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "0sUtJWXWA8TgnMc9VwNkVzZ6BJ03": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 3
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 6,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 3
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Suecia",
+          "Arabia Saudita",
+          "Francia",
+          "Bosnia y Herz.",
+          "Argelia",
+          "Nueva Zelanda",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "1fQD9vsjU8Mq23kv30OnFVzORF73": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Japón",
+          "Arabia Saudita",
+          "Senegal",
+          "Costa de Marfil",
+          "Rep. Checa",
+          "Jordania",
+          "Panamá"
+        ],
+        "thr": ""
+      },
+      "1lEb8BY7a9VuUAocjlKeR3ruM5n2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Japón",
+          "Escocia",
+          "Senegal",
+          "Bosnia y Herz.",
+          "Cabo Verde",
+          "Nueva Zelanda",
+          "Costa de Marfil"
+        ],
+        "thr": ""
+      },
+      "96jJrV0jGMYnsK7nr1oGI8gRoww2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 5,
+                "b": 4
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 4
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 4
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 3
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 3
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 3
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Suecia",
+          "Nueva Zelanda",
+          "Cabo Verde",
+          "R.D. Congo",
+          "Senegal",
+          "Corea del Sur",
+          "Jordania",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "E36y02JO6xbyFgGPlynM3lXkrP52": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Australia",
+          "Irán",
+          "Cabo Verde",
+          "Senegal",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Argelia",
+          "Costa de Marfil"
+        ],
+        "thr": ""
+      },
+      "F2hv9ES4spYbokSYjR0G9Ao4ee62": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Suecia",
+          "Costa de Marfil",
+          "Senegal",
+          "Canadá",
+          "Rep. Checa",
+          "Argelia",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "FTQZkIDpsPUyEP3M3yr2c2dhFng1": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Suecia",
+          "Arabia Saudita",
+          "Senegal",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Irán",
+          "Costa de Marfil"
+        ],
+        "thr": ""
+      },
+      "JFDSoQrXpOUsZcgLn5QLCxc3Oy83": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 3
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Australia",
+          "Cabo Verde",
+          "Senegal",
+          "Argelia",
+          "Rep. Checa",
+          "Nueva Zelanda",
+          "Ecuador"
+        ],
+        "thr": ""
+      },
+      "KZW3TnOz3gVrDHWLkY4fU9R1x8o2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Suecia",
+          "Escocia",
+          "Senegal",
+          "Argelia",
+          "Rep. Checa",
+          "Egipto",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "MA9tf0iI0LTtSgr25kkg1ilvl0K2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              null,
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              null,
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              null,
+              {
+                "a": 2
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Turquía",
+          "Costa de Marfil",
+          "R.D. Congo",
+          "Argelia",
+          "Rep. Checa",
+          "Irán",
+          "Senegal"
+        ],
+        "thr": ""
+      },
+      "PamDDhnh8hZTp3waUcWNhr6313D3": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 3
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 2
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 3
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Suecia",
+          "Escocia",
+          "Senegal",
+          "Costa de Marfil",
+          "Sudáfrica",
+          "Argelia",
+          "Croacia"
+        ],
+        "thr": ""
+      },
+      "RVrJw8GYcbP7sFVGDRcAYLDUOJH3": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Paraguay",
+          "Arabia Saudita",
+          "Ecuador",
+          "Qatar",
+          "Sudáfrica",
+          "Japón",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "Rhjs1bJk1jTZ0lw0xY3QOU3Fvv22": {
+        "fin": "",
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "thr": ""
+      },
+      "ZDQcOkt2woOs5owq1jxAnsZ0dYu2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 4
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 4
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 4
+              },
+              {
+                "a": 1,
+                "b": 5
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 4
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 4
+              },
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 5
+              },
+              {
+                "a": 1,
+                "b": 5
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 5,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 6
+              },
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 4
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 6
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 23
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 6
+              },
+              {
+                "a": 4,
+                "b": 3
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 4
+              },
+              {
+                "a": 5,
+                "b": 6
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 2
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 6,
+                "b": 5
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 5
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 3
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 5
+              },
+              {
+                "a": 6,
+                "b": 5
+              },
+              {
+                "a": 8,
+                "b": 7
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 7,
+                "b": 9
+              },
+              {
+                "a": 2,
+                "b": 4
+              },
+              {
+                "a": 7,
+                "b": 8
+              },
+              {
+                "a": 9,
+                "b": 9
+              },
+              {
+                "a": 4,
+                "b": 4
+              },
+              {
+                "a": 4,
+                "b": 4
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 4,
+                "b": 4
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 5,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 1,
+                "b": 4
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "Bosnia y Herz.",
+          "Países Bajos",
+          "Suecia",
+          "Brasil",
+          "",
+          "Alemania",
+          "",
+          "",
+          "Irak",
+          "",
+          "R.D. Congo",
+          "Argentina",
+          "",
+          "España",
+          "",
+          "Egipto"
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Países Bajos",
+          "Nueva Zelanda",
+          "Cabo Verde",
+          "Uzbekistán",
+          "Irak",
+          "Sudáfrica",
+          "Austria",
+          "Croacia"
+        ],
+        "thr": ""
+      },
+      "gYRCEHmrMuP7UtLNmkZXK1lRzH83": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 2
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Paraguay",
+          "Arabia Saudita",
+          "Senegal",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Austria",
+          "Ghana"
+        ],
+        "thr": ""
+      },
+      "jVNyrAGGLjdDm4g17SOv8jBsaIK2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 6,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Turquía",
+          "Costa de Marfil",
+          "Senegal",
+          "Argentina",
+          "Arabia Saudita",
+          "Egipto",
+          "Panamá"
+        ],
+        "thr": ""
+      },
+      "jahioiw1lTUgyA8EXAbKJuCIEtl1": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 4,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Escocia",
+          "Suecia",
+          "Costa de Marfil",
+          "R.D. Congo",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Argelia",
+          "Senegal"
+        ],
+        "thr": ""
+      },
+      "lTyKoR7zagdLGw7lq9iBaWfiyql2": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 5,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Países Bajos",
+          "Escocia",
+          "Noruega",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Irán",
+          "Croacia"
+        ],
+        "thr": ""
+      },
+      "pCPEIUmKSgTdfA5J41oIHQKemuF3": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              }
+            ]
+          },
+          "B": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 0,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 1
+              }
+            ]
+          },
+          "C": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              }
+            ]
+          },
+          "D": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 3
+              },
+              {
+                "a": 4,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "E": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 3
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 2
+              }
+            ]
+          },
+          "F": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "G": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 4,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          },
+          "H": {
+            "matches": [
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "I": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 3,
+                "b": 2
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 1
+              }
+            ]
+          },
+          "J": {
+            "matches": [
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 0,
+                "b": 0
+              }
+            ]
+          },
+          "K": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 0,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 1
+              }
+            ]
+          },
+          "L": {
+            "matches": [
+              {
+                "a": 1,
+                "b": 1
+              },
+              {
+                "a": 1,
+                "b": 0
+              },
+              {
+                "a": 3,
+                "b": 1
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 2,
+                "b": 0
+              },
+              {
+                "a": 1,
+                "b": 0
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "t8": [
+          "Paraguay",
+          "Arabia Saudita",
+          "Costa de Marfil",
+          "R.D. Congo",
+          "Bosnia y Herz.",
+          "Rep. Checa",
+          "Egipto",
+          "Senegal"
+        ],
+        "thr": ""
+      }
+    },
+    "communities": {
+      "c_759zo1qe": {
+        "createdAt": 1779819975041,
+        "createdBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2",
+        "inviteCode": "3FVVS4K",
+        "licenseSource": "manual",
+        "licenseUsed": "LIC-2026-2FDXYYBFB25J92JT",
+        "maxMembers": 50,
+        "mode": "normal",
+        "name": "Pruebas pruebas1",
+        "stage2Unlocked": true
+      },
+      "c_bv2o7jzk": {
+        "createdAt": 1779731354474,
+        "createdBy": "96jJrV0jGMYnsK7nr1oGI8gRoww2",
+        "inviteCode": "C5RKSQ4",
+        "licenseSource": "manual",
+        "licenseUsed": "LIC-2026-6YDUC89M9ARZCQ6X",
+        "maxMembers": 50,
+        "mode": "normal",
+        "name": "Puro Pinchi Doggy",
+        "stage2Unlocked": true
+      },
+      "c_ccosbjz3": {
+        "createdAt": 1779136570057,
+        "createdBy": "dzNR4AxhpMPLj5OnJpEdip3FTcq2",
+        "inviteCode": "BRJ4FQY",
+        "licenseSource": "gumroad",
+        "licenseUsed": "9DA02147-587C4A84-92010C10-8C030D89",
+        "maxMembers": 50,
+        "mode": "normal",
+        "name": "Amigues",
+        "stage2Unlocked": true
+      },
+      "c_n2tym5lf": {
+        "bannerUrl": "https://i.imgur.com/f942POv.jpeg",
+        "createdAt": 1779081085545,
+        "createdBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2",
+        "inviteCode": "H97HZRM",
+        "licenseSource": "gumroad",
+        "licenseUsed": "8243390C-16AA41B9-9A48C917-CD5318F7",
+        "maxMembers": 50,
+        "mode": "tournament",
+        "name": "QUINIELA DOGGY",
+        "stage2Unlocked": false
+      },
+      "c_ot1j05fb": {
+        "createdAt": 1781125989099,
+        "createdBy": "Bb4yxeEOKWQXQHHzlmuUquI6sPG2",
+        "inviteCode": "32B655J",
+        "licenseSource": "manual",
+        "licenseUsed": "LIC-2026-2MHY2Z2FJHEWWSKN",
+        "maxMembers": 50,
+        "mode": "tournament",
+        "name": "Zebrows",
+        "stage2Unlocked": false
+      },
+      "c_xy78lah9": {
+        "createdAt": 1778979921266,
+        "createdBy": "g0Ca2BE4ZeZz9DjRkhCud1aawLM2",
+        "inviteCode": "6NXJV53",
+        "licenseUsed": "LIC-2026-453HDSCUXNRTKF7Q",
+        "maxMembers": 50,
+        "name": "Los perez"
+      }
+    },
+    "community_admins": {
+      "c_16l198bc": {
+        "GTZLM5K3JOTpfkEXw7CAqya0QQe2": true
+      },
+      "c_5s56xk87": {
+        "96jJrV0jGMYnsK7nr1oGI8gRoww2": true
+      },
+      "c_759zo1qe": {
+        "GTZLM5K3JOTpfkEXw7CAqya0QQe2": true
+      },
+      "c_bv2o7jzk": {
+        "96jJrV0jGMYnsK7nr1oGI8gRoww2": true
+      },
+      "c_ccosbjz3": {
+        "dzNR4AxhpMPLj5OnJpEdip3FTcq2": true
+      },
+      "c_dlrw9qnj": {
+        "GTZLM5K3JOTpfkEXw7CAqya0QQe2": true
+      },
+      "c_n1j9cphw": {
+        "96jJrV0jGMYnsK7nr1oGI8gRoww2": true
+      },
+      "c_n2tym5lf": {
+        "96jJrV0jGMYnsK7nr1oGI8gRoww2": true,
+        "GTZLM5K3JOTpfkEXw7CAqya0QQe2": true
+      },
+      "c_ot1j05fb": {
+        "Bb4yxeEOKWQXQHHzlmuUquI6sPG2": true
+      },
+      "c_p9d9f82w": {
+        "GTZLM5K3JOTpfkEXw7CAqya0QQe2": true
+      },
+      "c_xy78lah9": {
+        "g0Ca2BE4ZeZz9DjRkhCud1aawLM2": true
+      }
+    },
+    "community_results": {
+      "c_bv2o7jzk": {
+        "fin": "",
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "thr": ""
+      },
+      "c_n2tym5lf": {
+        "fin": "",
+        "grupos": {
+          "A": {
+            "matches": [
+              {
+                "a": 2
+              }
+            ]
+          }
+        },
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "thr": ""
+      },
+      "c_xy78lah9": {
+        "fin": "",
+        "qf": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r16": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "r32": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sf": [
+          "",
+          ""
+        ],
+        "thr": ""
+      }
+    },
+    "community_thirds_bracket": {},
+    "admin_results_legacy": {
+      "fin": "",
+      "qf": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "r16": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "r32": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sf": [
+        "",
+        ""
+      ],
+      "thr": ""
+    },
+    "thirds_bracket_legacy": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "licenses": {
+      "342191AD-8E1B42BD-97A5437B-4FFF82DE": {
+        "code": "342191AD-8E1B42BD-97A5437B-4FFF82DE",
+        "communityId": "c_16l198bc",
+        "createdAt": 1779078611492,
+        "source": "gumroad",
+        "status": "used",
+        "usedAt": 1779078611492,
+        "usedBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2"
+      },
+      "8243390C-16AA41B9-9A48C917-CD5318F7": {
+        "code": "8243390C-16AA41B9-9A48C917-CD5318F7",
+        "communityId": "c_n2tym5lf",
+        "createdAt": 1779081085545,
+        "source": "gumroad",
+        "status": "used",
+        "usedAt": 1779081085545,
+        "usedBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2"
+      },
+      "9DA02147-587C4A84-92010C10-8C030D89": {
+        "code": "9DA02147-587C4A84-92010C10-8C030D89",
+        "communityId": "c_ccosbjz3",
+        "createdAt": 1779136570057,
+        "source": "gumroad",
+        "status": "used",
+        "usedAt": 1779136570057,
+        "usedBy": "dzNR4AxhpMPLj5OnJpEdip3FTcq2"
+      },
+      "D8EF0A6F-F84547D5-8E1BADC1-6BEFA2BD": {
+        "code": "D8EF0A6F-F84547D5-8E1BADC1-6BEFA2BD",
+        "communityId": "c_dlrw9qnj",
+        "createdAt": 1779079825310,
+        "source": "gumroad",
+        "status": "used",
+        "usedAt": 1779079825310,
+        "usedBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2"
+      },
+      "LIC-2026-2FDXYYBFB25J92JT": {
+        "code": "LIC-2026-2FDXYYBFB25J92JT",
+        "communityId": "c_759zo1qe",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1779819975041,
+        "usedBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2"
+      },
+      "LIC-2026-2MHY2Z2FJHEWWSKN": {
+        "code": "LIC-2026-2MHY2Z2FJHEWWSKN",
+        "communityId": "c_ot1j05fb",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1781125989099,
+        "usedBy": "Bb4yxeEOKWQXQHHzlmuUquI6sPG2"
+      },
+      "LIC-2026-3THH9EBEUQ9YTJC5": {
+        "code": "LIC-2026-3THH9EBEUQ9YTJC5",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-3Z8C3ZKK54RV2PXX": {
+        "code": "LIC-2026-3Z8C3ZKK54RV2PXX",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-453HDSCUXNRTKF7Q": {
+        "code": "LIC-2026-453HDSCUXNRTKF7Q",
+        "communityId": "c_xy78lah9",
+        "createdAt": 1778979410611,
+        "status": "used",
+        "usedAt": 1778979921266,
+        "usedBy": "g0Ca2BE4ZeZz9DjRkhCud1aawLM2"
+      },
+      "LIC-2026-5XMP6MMY9DFWUJMG": {
+        "code": "LIC-2026-5XMP6MMY9DFWUJMG",
+        "createdAt": 1778979410611,
+        "status": "unused"
+      },
+      "LIC-2026-6D2ZX2TP4DUMFAU9": {
+        "code": "LIC-2026-6D2ZX2TP4DUMFAU9",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-6HCW5R3GZ422NKEZ": {
+        "code": "LIC-2026-6HCW5R3GZ422NKEZ",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-6WHETJ29Z6XRU7XD": {
+        "code": "LIC-2026-6WHETJ29Z6XRU7XD",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-6YDUC89M9ARZCQ6X": {
+        "code": "LIC-2026-6YDUC89M9ARZCQ6X",
+        "communityId": "c_bv2o7jzk",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1779731354474,
+        "usedBy": "96jJrV0jGMYnsK7nr1oGI8gRoww2"
+      },
+      "LIC-2026-7CRMWQUH3FGB6CZW": {
+        "code": "LIC-2026-7CRMWQUH3FGB6CZW",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-8NCP3DYYKMDSFDM8": {
+        "code": "LIC-2026-8NCP3DYYKMDSFDM8",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-8Z3U7YREGDTGDTQH": {
+        "code": "LIC-2026-8Z3U7YREGDTGDTQH",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-9FDWGQCC26NQ59ZC": {
+        "code": "LIC-2026-9FDWGQCC26NQ59ZC",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-A3CC2X83U3QZD3UQ": {
+        "code": "LIC-2026-A3CC2X83U3QZD3UQ",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-AEH53FXBA7YZX43Q": {
+        "code": "LIC-2026-AEH53FXBA7YZX43Q",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-AMEY6KGQ3SVEXVDD": {
+        "code": "LIC-2026-AMEY6KGQ3SVEXVDD",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-B4HK5M4JFK7WNRVF": {
+        "code": "LIC-2026-B4HK5M4JFK7WNRVF",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-BJX8RVW2QPE93GNK": {
+        "code": "LIC-2026-BJX8RVW2QPE93GNK",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-CVJ9FXPKYXTZF7ZJ": {
+        "code": "LIC-2026-CVJ9FXPKYXTZF7ZJ",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-DENREASKGDESX4SJ": {
+        "code": "LIC-2026-DENREASKGDESX4SJ",
+        "createdAt": 1778979410611,
+        "status": "unused"
+      },
+      "LIC-2026-DZC28USGFBFRFJNY": {
+        "code": "LIC-2026-DZC28USGFBFRFJNY",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-E5WPYGE7K44BTPFZ": {
+        "code": "LIC-2026-E5WPYGE7K44BTPFZ",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-F3G3RGQAWNU7SV7T": {
+        "code": "LIC-2026-F3G3RGQAWNU7SV7T",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-FCQ4AX2E56J3T36M": {
+        "code": "LIC-2026-FCQ4AX2E56J3T36M",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-FHZP57KNDWRAC9VV": {
+        "code": "LIC-2026-FHZP57KNDWRAC9VV",
+        "createdAt": 1778979410611,
+        "status": "unused"
+      },
+      "LIC-2026-FSAJYTCVCNBBD65Q": {
+        "code": "LIC-2026-FSAJYTCVCNBBD65Q",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-GC468Z75TQ4TRV4C": {
+        "code": "LIC-2026-GC468Z75TQ4TRV4C",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-GC9BPV5Z89YYTJ8H": {
+        "code": "LIC-2026-GC9BPV5Z89YYTJ8H",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-GGA8YKF563VK28YY": {
+        "code": "LIC-2026-GGA8YKF563VK28YY",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-HXX7EY36WY2Q3Q4J": {
+        "code": "LIC-2026-HXX7EY36WY2Q3Q4J",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-HXZR56TM8P78TJFS": {
+        "code": "LIC-2026-HXZR56TM8P78TJFS",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-KE6Q2XRUY3BBQ5UC": {
+        "code": "LIC-2026-KE6Q2XRUY3BBQ5UC",
+        "createdAt": 1778979410611,
+        "status": "unused"
+      },
+      "LIC-2026-KJ39D2PGPCEHMUBB": {
+        "code": "LIC-2026-KJ39D2PGPCEHMUBB",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-KJVQ2X7BMQVXZ7JA": {
+        "code": "LIC-2026-KJVQ2X7BMQVXZ7JA",
+        "createdAt": 1778979410611,
+        "status": "unused"
+      },
+      "LIC-2026-MUB8SKHYA8M6R5QD": {
+        "code": "LIC-2026-MUB8SKHYA8M6R5QD",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-MYN3FSNT9RGWEXAB": {
+        "code": "LIC-2026-MYN3FSNT9RGWEXAB",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-N6WVPGXD37SNFFVY": {
+        "code": "LIC-2026-N6WVPGXD37SNFFVY",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-NQJ4M5UYFDZBPK2E": {
+        "code": "LIC-2026-NQJ4M5UYFDZBPK2E",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-PAK7GEJTCUFPN6V3": {
+        "code": "LIC-2026-PAK7GEJTCUFPN6V3",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-PM25FTCG6J9RBYZE": {
+        "code": "LIC-2026-PM25FTCG6J9RBYZE",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-PVG5QJHYNKPUJFR9": {
+        "code": "LIC-2026-PVG5QJHYNKPUJFR9",
+        "communityId": "c_5s56xk87",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1779119704475,
+        "usedBy": "96jJrV0jGMYnsK7nr1oGI8gRoww2"
+      },
+      "LIC-2026-PXDG995MYUDMFKWU": {
+        "code": "LIC-2026-PXDG995MYUDMFKWU",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-RBYKZVKAP84SEYC9": {
+        "code": "LIC-2026-RBYKZVKAP84SEYC9",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-SDTJZVMNB7M8TEN5": {
+        "code": "LIC-2026-SDTJZVMNB7M8TEN5",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-TBF48624EVZMFJCN": {
+        "code": "LIC-2026-TBF48624EVZMFJCN",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-TMZB99TY4ZHJKJGP": {
+        "code": "LIC-2026-TMZB99TY4ZHJKJGP",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-TV7CUGMZA7Y73577": {
+        "code": "LIC-2026-TV7CUGMZA7Y73577",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-U77NHYPWVS6M95K8": {
+        "code": "LIC-2026-U77NHYPWVS6M95K8",
+        "communityId": "c_n1j9cphw",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1779041722833,
+        "usedBy": "96jJrV0jGMYnsK7nr1oGI8gRoww2"
+      },
+      "LIC-2026-U8NR3A4CHUSFPN55": {
+        "code": "LIC-2026-U8NR3A4CHUSFPN55",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-UUNZJV2R6AJHM9DD": {
+        "code": "LIC-2026-UUNZJV2R6AJHM9DD",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-V296FW4HJVFNM5BY": {
+        "code": "LIC-2026-V296FW4HJVFNM5BY",
+        "communityId": "c_p9d9f82w",
+        "source": "manual",
+        "status": "used",
+        "usedAt": 1779076447530,
+        "usedBy": "GTZLM5K3JOTpfkEXw7CAqya0QQe2"
+      },
+      "LIC-2026-VH94KEUBRU5V2KH9": {
+        "code": "LIC-2026-VH94KEUBRU5V2KH9",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-VVRREMMHW8NXJY8G": {
+        "code": "LIC-2026-VVRREMMHW8NXJY8G",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-W7ZUMVCTKC8XUV64": {
+        "code": "LIC-2026-W7ZUMVCTKC8XUV64",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-XGSHDTJQG6UHVKNT": {
+        "code": "LIC-2026-XGSHDTJQG6UHVKNT",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-XNZZU3KZBEA7YHRN": {
+        "code": "LIC-2026-XNZZU3KZBEA7YHRN",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-Y5SMYW77YTXGMTXD": {
+        "code": "LIC-2026-Y5SMYW77YTXGMTXD",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-ZUH63QERE2XDXWGN": {
+        "code": "LIC-2026-ZUH63QERE2XDXWGN",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      },
+      "LIC-2026-ZUKWD4GC8RHX9429": {
+        "code": "LIC-2026-ZUKWD4GC8RHX9429",
+        "createdAt": 1779819940401,
+        "status": "unused"
+      }
+    },
+    "admins": {
+      "ZDQcOkt2woOs5owq1jxAnsZ0dYu2": true,
+      "g0Ca2BE4ZeZz9DjRkhCud1aawLM2": true
+    }
+  }
+}

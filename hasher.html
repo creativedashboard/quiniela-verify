@@ -81,6 +81,11 @@
       </select>
       <span id="netbadge" class="net main">MAINNET</span>
     </div>
+    <div style="margin-top:12px">
+      <label style="font-size:12.5px;color:var(--muted);display:block;margin-bottom:5px">URL del RPC (de Alchemy/QuickNode/etc — evita el error 403):</label>
+      <input type="text" id="rpcUrl" placeholder="https://solana-mainnet.g.alchemy.com/v2/TU_API_KEY" style="width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-family:'JetBrains Mono';font-size:11.5px;outline:none">
+      <p style="font-size:11px;color:var(--muted);margin-top:5px;line-height:1.4">Pega aquí tu URL. Si la dejas vacía, se usa el endpoint público (que suele dar error 403).</p>
+    </div>
     <button class="btn gray" id="connectBtn" onclick="connectWallet()">Conectar Solflare</button>
     <div class="status" id="connStatus"></div>
   </div>
@@ -208,10 +213,12 @@ async function sealOnChain(){
   if(!HASH_HEX||!walletPubkey){s.className='status err';s.textContent='Falta cargar el backup o conectar la wallet.';return;}
   const net=document.getElementById('network').value;
   const cluster=net==='mainnet'?'mainnet-beta':'devnet';
+  const customRpc=document.getElementById('rpcUrl').value.trim();
   try{
     s.className='status info';s.textContent='Armando la transacción…';
     const W=solanaWeb3;
-    const conn=new W.Connection(W.clusterApiUrl(cluster),'confirmed');
+    const endpoint=customRpc || W.clusterApiUrl(cluster);
+    const conn=new W.Connection(endpoint,'confirmed');
     const memo='QuinielaChida|MundialEtapa1|sha256:'+HASH_HEX;
     const ix=new W.TransactionInstruction({keys:[{pubkey:walletPubkey,isSigner:true,isWritable:true}],programId:new W.PublicKey(MEMO_PROGRAM_ID),data:new TextEncoder().encode(memo)});
     const tx=new W.Transaction().add(ix); tx.feePayer=walletPubkey;

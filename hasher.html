@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sellar quiniela en Solana · PRIVADO</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+  :root{--green:#0e8a4f;--red:#e23744;--gold:#f3c34a;--paper:#f4f5f2;--card:#fff;--ink:#16241d;--muted:#6b7c74;--line:#e6e9e3;--sol1:#9945ff;--sol2:#14f195;--ok:#11a866;--bad:#e23744}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);padding:0 16px 60px}
+  .wrap{max-width:660px;margin:0 auto}
+  .priv{background:#1a1207;border:1px solid #5a4a1f;color:#f3c34a;border-radius:11px;padding:11px 15px;margin-top:16px;font-size:12.5px;font-family:'JetBrains Mono';display:flex;gap:9px;align-items:center;line-height:1.5}
+  h1{font-family:'Space Grotesk';font-weight:700;font-size:24px;margin:20px 0 4px;display:flex;align-items:center;gap:10px}
+  .lead{color:var(--muted);font-size:14px;margin-bottom:18px;line-height:1.5}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:13px}
+  .step.locked{opacity:.45;pointer-events:none}
+  .sh{font-family:'Space Grotesk';font-weight:700;font-size:15px;display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  .sn{width:26px;height:26px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:13px;flex:none}
+  .step.done .sn{background:var(--ok)}
+  .drop{border:2px dashed #cdd5cb;border-radius:12px;padding:26px;text-align:center;font-size:13.5px;color:var(--muted);cursor:pointer;transition:all .15s}
+  .drop:hover{border-color:var(--green);background:#f0faf4}
+  .drop.ok{border-color:var(--ok);background:#eefaf2;color:var(--green);font-weight:600}
+  .drop.bad{border-color:var(--bad);background:#fdecec;color:var(--red);font-weight:600}
+  .summary{margin-top:12px;display:none}
+  .summary .row{display:flex;justify-content:space-between;font-size:13px;padding:7px 0;border-bottom:1px solid var(--line)}
+  .pchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .pchip{font-size:11.5px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+  .warn{background:#fff8e6;border:1px solid #e8d48a;border-radius:10px;padding:11px 13px;font-size:12.5px;color:#7a5d12;margin-top:11px;line-height:1.5;display:none}
+  .hashbox{margin-top:12px;background:#0f1a16;color:#d6ffec;border-radius:10px;padding:13px;font-family:'JetBrains Mono';font-size:12.5px;word-break:break-all;display:none}
+  .hashbox .hl{color:#8fb3a4;font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:5px}
+  .btn{width:100%;border:none;border-radius:12px;font-family:'Space Grotesk';font-weight:700;font-size:15px;padding:14px;cursor:pointer;transition:transform .12s,opacity .2s;margin-top:12px}
+  .btn:disabled{opacity:.5;cursor:default}
+  .btn:not(:disabled):hover{transform:translateY(-1px)}
+  .btn.sol{background:linear-gradient(120deg,var(--sol1),var(--sol2));color:#08130d}
+  .btn.gray{background:#e6e9e3;color:var(--muted)}
+  .btn.dl{background:var(--ink);color:#fff}
+  .status{margin-top:12px;font-size:13px;padding:11px 13px;border-radius:10px;display:none;line-height:1.5}
+  .status.info{background:#eef4ff;color:#2a4d8f;display:block}
+  .status.ok{background:#eefaf2;color:var(--green);display:block;font-weight:600}
+  .status.err{background:#fdecec;color:var(--red);display:block;font-weight:600}
+  .cfg{display:flex;gap:8px;align-items:center;font-size:12.5px;color:var(--muted);margin-top:4px}
+  .cfg select{font-family:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px}
+  .net{display:inline-block;font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;margin-left:6px}
+  .net.main{background:#eefaf2;color:var(--green)} .net.dev{background:#fdecec;color:var(--red)}
+  .result{display:none;background:var(--card);border:2px solid var(--ok);border-radius:16px;padding:18px;margin-top:13px}
+  .result h3{font-family:'Space Grotesk';color:var(--green);font-size:16px;margin-bottom:12px}
+  .rfield{margin-bottom:11px}
+  .rfield .rl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;font-family:'JetBrains Mono'}
+  .rfield .rv{font-family:'JetBrains Mono';font-size:12.5px;word-break:break-all;background:var(--paper);border-radius:8px;padding:10px;display:flex;gap:8px;align-items:flex-start}
+  .rfield .rv button{flex:none;background:var(--ink);color:#fff;border:none;border-radius:6px;font-size:11px;padding:4px 9px;cursor:pointer;font-family:inherit}
+  .rfield a{color:var(--sol1);font-weight:600;text-decoration:none;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="priv">🔒 PÁGINA PRIVADA — úsala local en tu compu. No la subas a GitHub ni la compartas. Aquí entra el backup CRUDO (con correos); esta página los filtra y nunca los publica.</div>
+  <h1>◎ Sellar quiniela</h1>
+  <p class="lead">Arrastra el backup tal como sale de Firebase. La página saca solo "QUINIELA DOGGY", quita correos, calcula la huella y la sella en Solana con tu Solflare. Al final descargas 2 archivos para subir a tu repo.</p>
+
+  <div class="step" id="step1">
+    <div class="sh"><span class="sn" id="sn1">1</span> Carga el backup de Firebase</div>
+    <div class="drop" id="drop">Arrastra aquí el backup .json (crudo) o toca para elegirlo</div>
+    <input type="file" id="file" accept=".json,application/json" style="display:none">
+    <div class="warn" id="warn"></div>
+    <div class="summary" id="summary">
+      <div class="row"><span>Comunidad</span><b id="sCom">—</b></div>
+      <div class="row"><span>Jugadores incluidos</span><b id="sNum">—</b></div>
+      <div class="row"><span>Datos privados removidos</span><b style="color:var(--ok)">✓ correos, fotos, licencias</b></div>
+      <div class="pchips" id="sChips"></div>
+    </div>
+    <div class="hashbox" id="hashbox"><div class="hl">Huella SHA-256 del JSON público</div><span id="hashval"></span></div>
+  </div>
+
+  <div class="step locked" id="step2">
+    <div class="sh"><span class="sn" id="sn2">2</span> Conecta Solflare</div>
+    <div class="cfg">Red:
+      <select id="network">
+        <option value="mainnet">Mainnet (real)</option>
+        <option value="devnet">Devnet (pruebas)</option>
+      </select>
+      <span id="netbadge" class="net main">MAINNET</span>
+    </div>
+    <button class="btn gray" id="connectBtn" onclick="connectWallet()">Conectar Solflare</button>
+    <div class="status" id="connStatus"></div>
+  </div>
+
+  <div class="step locked" id="step3">
+    <div class="sh"><span class="sn" id="sn3">3</span> Sella en Solana</div>
+    <button class="btn sol" id="sealBtn" onclick="sealOnChain()">Sellar ahora (Solflare pedirá aprobación)</button>
+    <div class="status" id="sealStatus"></div>
+  </div>
+
+  <div class="result" id="result">
+    <h3>✅ ¡Sellado!</h3>
+    <div class="rfield"><div class="rl">Hash sellado</div><div class="rv"><span id="rHash"></span><button onclick="copy('rHash')">copiar</button></div></div>
+    <div class="rfield"><div class="rl">Firma de la transacción</div><div class="rv"><span id="rSig"></span><button onclick="copy('rSig')">copiar</button></div></div>
+    <div class="rfield"><div class="rl">Ver en Solana Explorer</div><a id="rLink" href="#" target="_blank">Abrir transacción ↗</a></div>
+    <div style="background:#eef4ff;border:1px solid #c5d6f5;border-radius:11px;padding:13px;margin-top:6px">
+      <p style="font-size:13px;font-weight:600;color:#2a4d8f;margin-bottom:10px">📦 Descarga los 2 archivos y súbelos a tu repo de GitHub:</p>
+      <button class="btn dl" style="margin-top:0" onclick="downloadPublic()">⬇ 1. quiniela-publica.json</button>
+      <button class="btn dl" onclick="downloadSello()">⬇ 2. sello.json</button>
+      <p style="font-size:12px;color:var(--muted);margin-top:10px;line-height:1.5">Súbelos junto al index.html (sin renombrarlos). La página los detecta sola.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/@solana/web3.js@1.95.3/lib/index.iife.min.js"></script>
+<script>
+const MEMO_PROGRAM_ID='MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr';
+const TARGET_COMMUNITY='c_n2tym5lf';
+const COMMUNITY_NAME='QUINIELA DOGGY';
+const GRP={A:["México","Corea del Sur","Sudáfrica","Rep. Checa"],B:["Canadá","Suiza","Qatar","Bosnia y Herz."],C:["Brasil","Marruecos","Escocia","Haití"],D:["EE. UU.","Paraguay","Australia","Turquía"],E:["Alemania","Ecuador","Costa de Marfil","Curazao"],F:["Países Bajos","Japón","Túnez","Suecia"],G:["Bélgica","Irán","Egipto","Nueva Zelanda"],H:["España","Uruguay","Arabia Saudita","Cabo Verde"],I:["Francia","Senegal","Noruega","Irak"],J:["Argentina","Austria","Argelia","Jordania"],K:["Portugal","Colombia","Uzbekistán","R.D. Congo"],L:["Inglaterra","Croacia","Panamá","Ghana"]};
+const PAIRS=[[0,1],[2,3],[0,2],[1,3],[0,3],[1,2]];
+const FLAGS={"México":"🇲🇽","Sudáfrica":"🇿🇦","Corea del Sur":"🇰🇷","Rep. Checa":"🇨🇿","Canadá":"🇨🇦","Suiza":"🇨🇭","Qatar":"🇶🇦","Bosnia y Herz.":"🇧🇦","Brasil":"🇧🇷","Marruecos":"🇲🇦","Escocia":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","Haití":"🇭🇹","EE. UU.":"🇺🇸","Paraguay":"🇵🇾","Australia":"🇦🇺","Turquía":"🇹🇷","Alemania":"🇩🇪","Ecuador":"🇪🇨","Costa de Marfil":"🇨🇮","Curazao":"🇨🇼","Países Bajos":"🇳🇱","Japón":"🇯🇵","Túnez":"🇹🇳","Suecia":"🇸🇪","Bélgica":"🇧🇪","Irán":"🇮🇷","Egipto":"🇪🇬","Nueva Zelanda":"🇳🇿","España":"🇪🇸","Uruguay":"🇺🇾","Arabia Saudita":"🇸🇦","Cabo Verde":"🇨🇻","Francia":"🇫🇷","Senegal":"🇸🇳","Noruega":"🇳🇴","Irak":"🇮🇶","Argentina":"🇦🇷","Austria":"🇦🇹","Argelia":"🇩🇿","Jordania":"🇯🇴","Portugal":"🇵🇹","Colombia":"🇨🇴","Uzbekistán":"🇺🇿","R.D. Congo":"🇨🇩","Inglaterra":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croacia":"🇭🇷","Panamá":"🇵🇦","Ghana":"🇬🇭"};
+const FIXTURE={}; for(const g in GRP){FIXTURE[g]=PAIRS.map(p=>[GRP[g][p[0]],GRP[g][p[1]]]);}
+let PUBLIC_OBJ=null, HASH_HEX=null, walletPubkey=null;
+
+function canonicalize(x){
+  if(Array.isArray(x))return '['+x.map(canonicalize).join(',')+']';
+  if(x&&typeof x==='object')return '{'+Object.keys(x).sort().map(k=>JSON.stringify(k)+':'+canonicalize(x[k])).join(',')+'}';
+  return JSON.stringify(x);
+}
+async function sha256Hex(str){
+  const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
+  return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+function buildPublic(backup){
+  const data=backup.data||{}; const users=data.users||{}, picks=data.picks||{};
+  const members=Object.keys(users).filter(uid=>users[uid] && users[uid].communityId===TARGET_COMMUNITY);
+  const players=members.map(uid=>{
+    const u=users[uid], pick=picks[uid]||{}; const grupos=pick.grupos||{};
+    const groups=Object.keys(grupos).sort().map(g=>{
+      const ms=grupos[g].matches||[]; const fx=FIXTURE[g]||[];
+      const preds=ms.map((m,i)=>{
+        m=m||{}; let a=(m.a===undefined?'':m.a), b=(m.b===undefined?'':m.b);
+        if(a===''&&b===''){a='\u2013';b='\u2013';}
+        const pair=fx[i]||['?','?'];
+        return [FLAGS[pair[0]]||'',pair[0],a+' \u2013 '+b,pair[1],FLAGS[pair[1]]||''];
+      });
+      return {name:'Grupo '+g, preds};
+    });
+    const out={name:u.name||'Jugador', groups};
+    if(u.color) out.color=u.color;
+    return out;
+  });
+  return {quiniela:COMMUNITY_NAME, torneo:"Mundial 2026", etapa:"Fase de grupos", jugadores_total:players.length, players};
+}
+
+const drop=document.getElementById('drop'), fileInput=document.getElementById('file');
+drop.onclick=()=>fileInput.click();
+drop.ondragover=e=>{e.preventDefault();drop.classList.add('ok')};
+drop.ondragleave=()=>drop.classList.remove('ok');
+drop.ondrop=e=>{e.preventDefault();if(e.dataTransfer.files[0])handleFile(e.dataTransfer.files[0])};
+fileInput.onchange=e=>{if(e.target.files[0])handleFile(e.target.files[0])};
+async function handleFile(f){
+  try{
+    const backup=JSON.parse(await f.text());
+    if(!backup.data||!backup.data.users){throw new Error('No parece un backup de Quiniela Chida (falta data.users)');}
+    PUBLIC_OBJ=buildPublic(backup);
+    if(PUBLIC_OBJ.players.length===0){throw new Error('No encontré jugadores en QUINIELA DOGGY');}
+    HASH_HEX=await sha256Hex(canonicalize(PUBLIC_OBJ));
+    const txt=JSON.stringify(PUBLIC_OBJ);
+    const leak=['@','email','licen','googleusercontent','communityId','inviteCode','token'].find(w=>txt.toLowerCase().includes(w.toLowerCase()));
+    const warn=document.getElementById('warn');
+    if(leak){warn.style.display='block';warn.textContent='⚠️ Detecté posible dato privado ("'+leak+'"). NO sigas; avísame.';drop.className='drop bad';drop.textContent='⚠️ Revisar privacidad';return;}
+    drop.className='drop ok'; drop.textContent='✅ '+f.name+' procesado';
+    document.getElementById('sCom').textContent=COMMUNITY_NAME;
+    document.getElementById('sNum').textContent=PUBLIC_OBJ.jugadores_total;
+    document.getElementById('sChips').innerHTML=PUBLIC_OBJ.players.map(p=>'<span class="pchip">'+p.name+'</span>').join('');
+    document.getElementById('summary').style.display='block';
+    document.getElementById('hashbox').style.display='block';
+    document.getElementById('hashval').textContent=HASH_HEX;
+    document.getElementById('step1').classList.add('done'); document.getElementById('sn1').textContent='✓';
+    document.getElementById('step2').classList.remove('locked');
+  }catch(err){ drop.className='drop bad'; drop.textContent='❌ '+err.message; }
+}
+function downloadPublic(){
+  const blob=new Blob([JSON.stringify(PUBLIC_OBJ,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='quiniela-publica.json'; a.click();
+}
+let SELLO_OBJ=null;
+function downloadSello(){
+  if(!SELLO_OBJ){alert('Primero sella en Solana.');return;}
+  const blob=new Blob([JSON.stringify(SELLO_OBJ,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='sello.json'; a.click();
+}
+document.getElementById('network').onchange=e=>{
+  const b=document.getElementById('netbadge');
+  if(e.target.value==='mainnet'){b.textContent='MAINNET';b.className='net main';} else {b.textContent='DEVNET';b.className='net dev';}
+};
+async function connectWallet(){
+  const s=document.getElementById('connStatus');
+  if(!window.solflare){s.className='status err';s.textContent='No detecto Solflare. Abre esto en Brave con la extensión.';return;}
+  try{
+    s.className='status info';s.textContent='Aprueba la conexión en Solflare…';
+    await window.solflare.connect();
+    if(!window.solflare.isConnected){s.className='status err';s.textContent='Conexión rechazada.';return;}
+    walletPubkey=window.solflare.publicKey;
+    s.className='status ok';s.textContent='✅ Conectado: '+walletPubkey.toString().slice(0,8)+'…'+walletPubkey.toString().slice(-6);
+    document.getElementById('step2').classList.add('done');document.getElementById('sn2').textContent='✓';
+    document.getElementById('connectBtn').textContent='Reconectar';
+    document.getElementById('step3').classList.remove('locked');
+  }catch(err){s.className='status err';s.textContent='Error: '+err.message;}
+}
+async function sealOnChain(){
+  const s=document.getElementById('sealStatus');
+  if(!HASH_HEX||!walletPubkey){s.className='status err';s.textContent='Falta cargar el backup o conectar la wallet.';return;}
+  const net=document.getElementById('network').value;
+  const cluster=net==='mainnet'?'mainnet-beta':'devnet';
+  try{
+    s.className='status info';s.textContent='Armando la transacción…';
+    const W=solanaWeb3;
+    const conn=new W.Connection(W.clusterApiUrl(cluster),'confirmed');
+    const memo='QuinielaChida|MundialEtapa1|sha256:'+HASH_HEX;
+    const ix=new W.TransactionInstruction({keys:[{pubkey:walletPubkey,isSigner:true,isWritable:true}],programId:new W.PublicKey(MEMO_PROGRAM_ID),data:new TextEncoder().encode(memo)});
+    const tx=new W.Transaction().add(ix); tx.feePayer=walletPubkey;
+    tx.recentBlockhash=(await conn.getLatestBlockhash()).blockhash;
+    s.className='status info';s.textContent='Aprueba la transacción en Solflare…';
+    const sig=await window.solflare.signAndSendTransaction(tx);
+    const sigStr=typeof sig==='string'?sig:(sig.signature||sig);
+    s.className='status info';s.textContent='Confirmando en la red…';
+    await conn.confirmTransaction(sigStr,'confirmed');
+    const explorer='https://explorer.solana.com/tx/'+sigStr+(net==='devnet'?'?cluster=devnet':'');
+    const fecha=new Date().toLocaleString('es-MX',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})+' CDMX';
+    SELLO_OBJ={hash:HASH_HEX, signature:sigStr, network:net, sealedAt:fecha};
+    document.getElementById('rHash').textContent=HASH_HEX;
+    document.getElementById('rSig').textContent=sigStr;
+    document.getElementById('rLink').href=explorer;
+    document.getElementById('result').style.display='block';
+    document.getElementById('step3').classList.add('done');document.getElementById('sn3').textContent='✓';
+    s.style.display='none';
+    document.getElementById('result').scrollIntoView({behavior:'smooth'});
+  }catch(err){s.className='status err';s.textContent='Error al sellar: '+err.message;}
+}
+function copy(id){navigator.clipboard.writeText(document.getElementById(id).textContent);}
+</script>
+</body>
+</html>

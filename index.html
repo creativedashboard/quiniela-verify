@@ -254,25 +254,15 @@
 
 <script>
 /* ============================================================
-   ⬇⬇⬇  MAÑANA: pegar aquí los datos reales  ⬇⬇⬇
+   Esta página lee DOS archivos del mismo repo:
+     • quiniela-publica.json  → los datos (esto es lo único que reemplazas)
+     • sello.json             → { hash, signature, network, sealedAt }
+   No necesitas editar este HTML.
    ============================================================ */
 
-// 1) El JSON oficial exportado de Firebase (pegar el objeto tal cual):
-const QUINIELA_DATA = __PEGAR_JSON__;
-
-// 2) Datos del sellado que te dará la página sellar.html:
-const SEAL = {
-  hash: "__PEGAR_HASH__",            // el SHA-256 que selló
-  signature: "__PEGAR_FIRMA__",      // la firma de la transacción
-  network: "mainnet",                // "mainnet" o "devnet"
-  sealedAt: "10 jun 2026 · 23:59 CDMX"
-};
-
-/* ============================================================
-   ⬆⬆⬆  No toques nada de aquí para abajo  ⬆⬆⬆
-   ============================================================ */
-
-const explorerURL = "https://explorer.solana.com/tx/"+SEAL.signature+(SEAL.network==='devnet'?'?cluster=devnet':'');
+let QUINIELA_DATA = {players:[]};
+let SEAL = { hash:"", signature:"", network:"mainnet", sealedAt:"" };
+let explorerURL = "#";
 
 /* --- canónico + sha256 (idénticos a sellar.html) --- */
 function canonicalize(x){
@@ -284,14 +274,26 @@ async function sha256Hex(str){
   const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(str));
   return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('');
 }
-function shortHash(h){return h.slice(0,8)+'…'+h.slice(-6);}
+function shortHash(h){return h?h.slice(0,8)+'…'+h.slice(-6):'—';}
 
-/* --- al cargar: calcular hash local y fijar enlaces/sello --- */
+/* --- al cargar: traer archivos, calcular hash local y fijar enlaces/sello --- */
 let LOCAL_HASH=null, MATCH=null;
 async function init(){
+  // cargar datos y sello desde archivos del repo
+  try{
+    const [d,s]=await Promise.all([
+      fetch('quiniela-publica.json',{cache:'no-store'}).then(r=>r.json()),
+      fetch('sello.json',{cache:'no-store'}).then(r=>r.json()),
+    ]);
+    QUINIELA_DATA=d; SEAL=s;
+  }catch(e){
+    document.getElementById('globalmeta').textContent='No pude cargar los datos (revisa quiniela-publica.json y sello.json).';
+  }
+  explorerURL="https://explorer.solana.com/tx/"+SEAL.signature+(SEAL.network==='devnet'?'?cluster=devnet':'');
+
   try{
     LOCAL_HASH=await sha256Hex(canonicalize(QUINIELA_DATA));
-    MATCH=(LOCAL_HASH.toLowerCase()===SEAL.hash.toLowerCase());
+    MATCH=(LOCAL_HASH.toLowerCase()===(SEAL.hash||'').toLowerCase());
   }catch(e){MATCH=false;}
 
   // sello global
@@ -380,6 +382,7 @@ function renderDash(){
     const r=i+1,medal=r===1?'🥇':r===2?'🥈':r===3?'🥉':r;
     const col=avaColor(p,i);
     const ini=(p.name||'?').trim().charAt(0).toUpperCase();
+    return `<div class="player" onclick="openDetail(${i})"><div class="rank">${medal}</div>
       <div class="ava" style="background:${col}">${ini}</div>
       <div class="pinfo"><div class="pn">${p.name||'Jugador'} ${p.you?'<span class="you">tú</span>':''}</div>
       <div class="ps">${(p.groups?p.groups.length:0)?'predicciones registradas':''}</div></div>

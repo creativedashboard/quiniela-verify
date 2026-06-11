@@ -308,7 +308,7 @@ async function init(){
   // descargar json
   const blob=new Blob([JSON.stringify(QUINIELA_DATA,null,2)],{type:'application/json'});
   document.getElementById('dlJson').href=URL.createObjectURL(blob);
-  document.getElementById('dlJson').download='quiniela-mundial-2026.json';
+  document.getElementById('dlJson').download='quiniela-publica.json';
 
   // ejemplo página 2
   recalcEx();
@@ -389,17 +389,69 @@ function renderDash(){
       <div class="vchip"><span class="c">✓</span> Solana</div><div class="chev">›</div></div>`;
   }).join('');
 }
+/* Calcula la tabla de un grupo desde sus predicciones, con la MISMA regla
+   que la app (pts → dg → gf → head-to-head → orden original del grupo).
+   preds: [ [flagL, local, "a – b", visitante, flagV], ... ] en orden de fixture. */
+function calcTable(preds){
+  const teams={}; const order=[];
+  function ensure(name){ if(!(name in teams)){teams[name]={name,idx:order.length,pts:0,pj:0,gf:0,ga:0,gd:0,g:0,e:0,p:0}; order.push(name);} }
+  const parsed=[];
+  preds.forEach(m=>{
+    const loc=m[1], vis=m[3]; ensure(loc); ensure(vis);
+    const sc=(m[2]||'').split('–').map(s=>s.trim());
+    const a=parseInt(sc[0]), b=parseInt(sc[1]);
+    parsed.push({loc,vis,a,b});
+    if(isNaN(a)||isNaN(b))return;
+    teams[loc].pj++; teams[vis].pj++;
+    teams[loc].gf+=a; teams[loc].ga+=b; teams[loc].gd=teams[loc].gf-teams[loc].ga;
+    teams[vis].gf+=b; teams[vis].ga+=a; teams[vis].gd=teams[vis].gf-teams[vis].ga;
+    if(a>b){teams[loc].pts+=3;teams[loc].g++;teams[vis].p++;}
+    else if(a<b){teams[vis].pts+=3;teams[vis].g++;teams[loc].p++;}
+    else{teams[loc].pts++;teams[vis].pts++;teams[loc].e++;teams[vis].e++;}
+  });
+  function h2h(nA,nB){
+    for(const x of parsed){
+      if(isNaN(x.a)||isNaN(x.b))continue;
+      if((x.loc===nA&&x.vis===nB)||(x.loc===nB&&x.vis===nA)){
+        const aIsA=(x.loc===nA);
+        if(x.a===x.b)return 0;
+        if((aIsA&&x.a>x.b)||(!aIsA&&x.b>x.a))return -1;
+        return 1;
+      }
+    }
+    return 0;
+  }
+  const arr=order.map(n=>teams[n]);
+  arr.sort((x,y)=>{
+    if(y.pts!==x.pts)return y.pts-x.pts;
+    if(y.gd!==x.gd)return y.gd-x.gd;
+    if(y.gf!==x.gf)return y.gf-x.gf;
+    const h=h2h(x.name,y.name); if(h!==0)return h;
+    return x.idx-y.idx;
+  });
+  return arr;
+}
+const TEAM_FLAG={}; /* se llena al vuelo desde los preds */
 function openDetail(i){
   const players=(QUINIELA_DATA&&QUINIELA_DATA.players)||[];const p=players[i];if(!p)return;
   const col=avaColor(p,i);const ini=(p.name||'?').trim().charAt(0).toUpperCase();
   const groups=p.groups||[];
   const cards=groups.map(G=>{
-    const table=(G.table||[]).map(r=>`<tr class="p${r.pos<=3?r.pos:''}"><td><span class="pos">${r.pos}</span></td>
-      <td><span class="gflag">${r.fl||''}</span>${r.t}</td><td class="pts">${r.pts}</td><td>${r.pj}</td><td>${r.g}</td><td>${r.e}</td><td>${r.p}</td><td>${r.dg}</td></tr>`).join('');
-    const preds=(G.preds||[]).map(m=>`<div class="pm"><span class="t">${m[0]||''} ${m[1]}</span><span class="sc">${m[2]}</span><span class="t r">${m[3]} ${m[4]||''}</span></div>`).join('');
+    const preds=G.preds||[];
+    // mapa de banderas desde los preds
+    const flag={}; preds.forEach(m=>{flag[m[1]]=m[0]||''; flag[m[3]]=m[4]||'';});
+    const tabla=calcTable(preds);
+    const dgfmt=v=>(v>0?'+':'')+v;
+    const tableRows=tabla.map((r,idx)=>{
+      const pos=idx+1;
+      return `<tr class="p${pos<=3?pos:''}"><td><span class="pos">${pos}</span></td>
+        <td><span class="gflag">${flag[r.name]||''}</span>${r.name}</td><td class="pts">${r.pts}</td>
+        <td>${r.pj}</td><td>${r.g}</td><td>${r.e}</td><td>${r.p}</td><td>${dgfmt(r.gd)}</td></tr>`;
+    }).join('');
+    const predsHTML=preds.map(m=>`<div class="pm"><span class="t">${m[0]||''} ${m[1]}</span><span class="sc">${m[2]}</span><span class="t r">${m[3]} ${m[4]||''}</span></div>`).join('');
     return `<div class="gcard"><div class="ght">${G.name} <span class="ok">✓ Completo</span></div>
-      <table><tr><th>#</th><th>Equipo</th><th>PTS</th><th>PJ</th><th>G</th><th>E</th><th>P</th><th>DG</th></tr>${table}</table>
-      <div class="preds"><div class="pl">Predicciones · puso los goles</div>${preds}</div></div>`;
+      <table><tr><th>#</th><th>Equipo</th><th>PTS</th><th>PJ</th><th>G</th><th>E</th><th>P</th><th>DG</th></tr>${tableRows}</table>
+      <div class="preds"><div class="pl">Predicciones · puso los goles</div>${predsHTML}</div></div>`;
   }).join('');
   document.getElementById('detailbody').innerHTML=`
     <div class="phero"><div class="ava" style="background:${col};width:52px;height:52px;font-size:21px">${ini}</div>

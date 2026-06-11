@@ -344,12 +344,12 @@ function runVerify(){
 }
 
 /* --- ejemplo "cambia un gol" (decorativo) --- */
-const ORIG=shortHash(SEAL.hash);
+function origHash(){return shortHash(SEAL.hash);}
 function fakeHash(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))>>>0;const x=h.toString(16).padStart(8,'0');return x+'a8c1e3'+x.split('').reverse().join('')+'…9f2c';}
 function recalcEx(){
   const a=document.getElementById('eg1').value,b=document.getElementById('eg2').value;
   const box=document.getElementById('exphash'),note=document.getElementById('expnote');
-  if(a==='3'&&b==='0'){box.textContent='huella del ejemplo: '+ORIG;box.className='exphash';note.textContent='Este es el marcador original. Cámbialo para ver el efecto.';note.className='expnote';}
+  if(a==='3'&&b==='0'){box.textContent='huella del ejemplo: '+origHash();box.className='exphash';note.textContent='Este es el marcador original. Cámbialo para ver el efecto.';note.className='expnote';}
   else{box.textContent='huella del ejemplo: '+fakeHash(a+'-'+b);box.className='exphash changed';note.textContent='⚠️ Huella totalmente distinta → ya no coincidiría con Solana. Por eso un cambio siempre se nota.';note.className='expnote bad';}
 }
 

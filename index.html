@@ -409,24 +409,47 @@ function calcTable(preds){
     else if(a<b){teams[vis].pts+=3;teams[vis].g++;teams[loc].p++;}
     else{teams[loc].pts++;teams[vis].pts++;teams[loc].e++;teams[vis].e++;}
   });
-  function h2h(nA,nB){
+  // ═══════════════════════════════════════════════════════════════
+  // FIFA Mundial 2026 — desempate oficial:
+  //   1. Puntos totales del grupo
+  //   2. ⭐ Mini-tabla SOLO con partidos entre equipos empatados:
+  //        a) Puntos entre ellos · b) Diferencia de goles · c) Goles a favor
+  //   3. Diferencia de goles total
+  //   4. Goles a favor total
+  // ═══════════════════════════════════════════════════════════════
+  function buildMiniTable(tiedNames){
+    const tiedSet=new Set(tiedNames);
+    const mini={};
+    tiedNames.forEach(n=>{mini[n]={pts:0,gf:0,ga:0,gd:0};});
     for(const x of parsed){
       if(isNaN(x.a)||isNaN(x.b))continue;
-      if((x.loc===nA&&x.vis===nB)||(x.loc===nB&&x.vis===nA)){
-        const aIsA=(x.loc===nA);
-        if(x.a===x.b)return 0;
-        if((aIsA&&x.a>x.b)||(!aIsA&&x.b>x.a))return -1;
-        return 1;
-      }
+      if(!tiedSet.has(x.loc)||!tiedSet.has(x.vis))continue;
+      mini[x.loc].gf+=x.a;mini[x.loc].ga+=x.b;mini[x.loc].gd=mini[x.loc].gf-mini[x.loc].ga;
+      mini[x.vis].gf+=x.b;mini[x.vis].ga+=x.a;mini[x.vis].gd=mini[x.vis].gf-mini[x.vis].ga;
+      if(x.a>x.b)mini[x.loc].pts+=3;
+      else if(x.a<x.b)mini[x.vis].pts+=3;
+      else{mini[x.loc].pts++;mini[x.vis].pts++;}
     }
-    return 0;
+    return mini;
   }
   const arr=order.map(n=>teams[n]);
   arr.sort((x,y)=>{
+    // 1. Puntos totales
     if(y.pts!==x.pts)return y.pts-x.pts;
+    // 2. Mini-tabla entre empatados (pts → GD → GF)
+    const tiedNames=arr.filter(t=>t.pts===x.pts).map(t=>t.name);
+    if(tiedNames.length>=2){
+      const mini=buildMiniTable(tiedNames);
+      const mx=mini[x.name],my=mini[y.name];
+      if(my.pts!==mx.pts)return my.pts-mx.pts;
+      if(my.gd!==mx.gd)return my.gd-mx.gd;
+      if(my.gf!==mx.gf)return my.gf-mx.gf;
+    }
+    // 3. Diferencia de goles total
     if(y.gd!==x.gd)return y.gd-x.gd;
+    // 4. Goles a favor total
     if(y.gf!==x.gf)return y.gf-x.gf;
-    const h=h2h(x.name,y.name); if(h!==0)return h;
+    // 5. Fallback: orden de aparición
     return x.idx-y.idx;
   });
   return arr;
